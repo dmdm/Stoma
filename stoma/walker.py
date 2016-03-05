@@ -10,8 +10,6 @@ from .mime import guess_mime_type
 from .models import Item, exclude_filter
 
 
-# TODO Handle edge case: item flagged as deleted in database but recreated on filesystem. Would not be detected right now.
-
 ACTION_INSERT = 'i'
 ACTION_UPDATE = 'u'
 ACTION_DELETE = 'd'
