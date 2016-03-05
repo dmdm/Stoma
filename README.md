@@ -39,3 +39,12 @@ Running
 ```
 stoma --help
 ```
+
+------
+
+> In botany, a stoma is a pore.
+
+> The pore is bordered by a pair of specialized parenchyma cells.
+
+  -- [Wikipedia](https://en.wikipedia.org/wiki/Stoma)
+ 
