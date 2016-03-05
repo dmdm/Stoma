@@ -1,0 +1,65 @@
+*.py[cod]
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info
+eggs
+parts
+sdist
+develop-eggs
+.installed.cfg
+lib64
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+# jupyter
+.ipynb_checkpoints
+
+# node, jspm, bower etc
+node_modules
+jspm_packages
+client/src/bower_components
+pym/static/jspm_packages
+pym/static/bower_components
+
+# dmdm
+.*.swp
+var/cache/*
+var/log/*
+var/db/*
+var/run/*
+var/sstore/*
+var/sessions/data/*
+var/sessions/lock/*
+.~*
+*~
+*.pgdump
+*.pgdump.gz
+*.pyc
+__pycache__
+*secrets.yaml
+downloads
+art
+Pym.egg-info
+.coverage
+_tmp*
+priv/*
+.idea
+

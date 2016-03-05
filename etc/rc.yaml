@@ -1,0 +1,30 @@
+# XXX Put actual secrets into rcsecrets.yaml
+
+# ###########################################
+#   General Settings
+# ###########################################
+
+project.title: Stoma
+project.subtitle: Parenchym Filesystem Indexer
+project.description: 
+project.keywords: 
+project.version: 0.1
+project.author: Dirk Makowski (http://parenchym.com/)
+project.copyright: "(c) 2014,15,16 Dirk Makowski"
+project.copyright_link: http://parenchym.com/
+
+
+debug: false
+
+
+
+
+
+# ===========================================
+#   Database
+# ===========================================
+
+# {here} is expanded to absolute path which starts with `/'
+# To be absolute, URL must start with 4 `/', hence we type 3 `/' literally here
+db.pym.sa.url : "sqlite:///{here}/var/db/stoma.sqlite3"
+
