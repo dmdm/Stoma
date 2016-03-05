@@ -141,7 +141,7 @@ def parse_args(runner, argv):
     p_index = sp.add_parser(
         'index',
         parents=[],
-        help="Index filesystem tree. This is a dry-run unless --commit.",
+        help="Index filesystem tree",
         add_help=True
     )
     p_index.set_defaults(func=runner.cmd_index)
