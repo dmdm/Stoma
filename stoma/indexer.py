@@ -57,7 +57,7 @@ class Indexer:
             r = save(id_=id_, data=data)
             if not it.ela_id:
                 it.ela_id = r['_id']
-                it.ela_version = r['_version']
+            it.ela_version = r['_version']
 
             it.state = ITEM_STATE_INDEXED
             sess.flush()
