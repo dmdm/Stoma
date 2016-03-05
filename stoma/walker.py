@@ -67,9 +67,6 @@ class Walker:
 
         Sets key 'action' on items to tell whether this item is to create or
         update in the database.
-
-        If a known item is not present in filesystem anymore, sets value of
-        that known item to None.
         """
         self.lgg.debug("Comparing")
         items = self.items
